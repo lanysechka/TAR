@@ -19,22 +19,22 @@ namespace TAR
 
         private void button_MODB_Click(object sender, EventArgs e)
         {
-            new MODB_Start().Show();
+            new MODBStart().Show();
         }
 
         private void button_Pharmacy_Click(object sender, EventArgs e)
         {
-            new Pharmacy_Start().Show();
+            new PharmacyStart().Show();
         }
 
         private void button_Cabinet_Click(object sender, EventArgs e)
         {
-            new Cabinet_Start().Show();
+            new CabinetStart().Show();
         }
 
         private void button_Extra_Click(object sender, EventArgs e)
         {
-            new Extra_Start().Show();
+            new ExtraStart().Show();
         }
     }
 }

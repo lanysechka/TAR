@@ -19,42 +19,42 @@ namespace TAR
 
         private void button_Xray_Room_Click(object sender, EventArgs e)
         {
-            new Xray_Room().ShowDialog();
+            new XrayRoom().ShowDialog();
         }
 
         private void button_Xray_Diagnostic_Study_Click(object sender, EventArgs e)
         {
-            new Xray_Diagnostic_Study().ShowDialog();
+            new XrayDiagnosticStudy().ShowDialog();
         }
 
         private void button_Psychotherapeutic_Office_Click(object sender, EventArgs e)
         {
-            new Psychotherapeutic_Office().ShowDialog();
+            new PsychotherapeuticOffice().ShowDialog();
         }
 
         private void button_Transfusion_Aid_Office_Click(object sender, EventArgs e)
         {
-            new Transfusion_Aid_Office().ShowDialog();
+            new TransfusionAidOffice().ShowDialog();
         }
 
         private void button_Functional_Diagnostics_Department_Click(object sender, EventArgs e)
         {
-            new Functional_Diagnostics_Department().ShowDialog();
+            new FunctionalDiagnosticsDepartment().ShowDialog();
         }
 
         private void button_Endoscopic_Department_Click(object sender, EventArgs e)
         {
-            new Endoscopic_Department().ShowDialog();
+            new EndoscopicDepartment().ShowDialog();
         }
 
         private void button_Organizational_Methodical_Department_Click(object sender, EventArgs e)
         {
-            new Organizational_Medical_Department().ShowDialog();
+            new OrganizationalMedicalDepartment().ShowDialog();
         }
 
         private void button_Medstatistiki_Office_Click(object sender, EventArgs e)
         {
-            new Medstatistiki_Office().ShowDialog();
+            new MedstatistikiOffice().ShowDialog();
         }
     }
 }

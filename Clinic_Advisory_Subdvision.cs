@@ -19,17 +19,17 @@ namespace TAR
 
         private void button_Surdologichesky_Office_Click(object sender, EventArgs e)
         {
-            new Surdologichesky_Office().ShowDialog();
+            new SurdologicheskyOffice().ShowDialog();
         }
 
         private void button_Clinic_Advisory_Click(object sender, EventArgs e)
         {
-            new Clinic_Advisory().ShowDialog();
+            new ClinicAdvisory().ShowDialog();
         }
 
         private void button_Dental_Office_Click(object sender, EventArgs e)
         {
-            new Dental_Office().ShowDialog();
+            new DentalOffice().ShowDialog();
         }
 
         private void button_Dental_Surgery_Office_Click(object sender, EventArgs e)
@@ -39,7 +39,7 @@ namespace TAR
 
         private void button_Diagnostic_Study_Click(object sender, EventArgs e)
         {
-            new Diagnostic_Study().ShowDialog();
+            new DiagnosticStudy().ShowDialog();
         }
     }
 }
